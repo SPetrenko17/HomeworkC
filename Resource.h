@@ -111,3 +111,4 @@ void add_some_resources(Resource* resources) {
 }
 
 #endif  // RESOURCE_H_"
+
