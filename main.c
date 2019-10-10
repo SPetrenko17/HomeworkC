@@ -10,7 +10,7 @@ int main() {
     add_some_resources(resources);
     print_grouped_resources(&*resources, size);
     printf("%d %s", get_measure_statistics(resources, size, "l",
-                                           "Liquid") , "l of Liquid\n");
+                                           "Liquid") , "l of liquid\n");
     printf("%d %s", get_measure_statistics(resources, size,
                                            "kg", "Metal"), "kg of metal]\n");
     free(resources);
